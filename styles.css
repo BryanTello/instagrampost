@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+    
+}
+.strong{
+    font-weight: 700;
+}
+.post{
+    width: 80%;
+    background-color: white;
+    padding: 20px;
+    margin: 6rem;
+}
+.post header{
+    display: flex;
+    justify-content: end;
+    font-size: 1.5rem;
+    align-items: center;
+}
+.post header > div{
+    display: flex;
+    flex-direction: column;
+}
+.post header:last-child{
+    margin-left: 5rem;
+}
+img {
+	width: 50%;
+    height: 50%;
+    margin: 0;
+    padding: 0;
+}
